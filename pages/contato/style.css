@@ -1,0 +1,64 @@
+h2 {
+    width: 350px;
+}
+
+.active {
+    color: #5FB4A2;
+
+}
+
+.content {
+    width: 100%;
+    min-height: 354px;
+}
+
+.border {
+    border-top: 1px solid rgba(51, 50, 61, 15%);
+    border-bottom: 1px solid rgba(51, 50, 61, 15%);
+}
+
+.paragrafo {
+    width: 635px;
+    height: 100%;
+}
+
+.opacity-80 {
+    color: rgba(51, 50, 61, 80%);
+}
+
+.input {
+    width: 100%;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    all: unset;
+    box-sizing: border-box;
+    border: 1px solid rgba(51, 50, 61, 10%);
+    background-color: rgba(51, 50, 61, 10%);
+    height: 48px;
+    margin-bottom: 24px;
+    padding: 10px;
+}
+
+.h-96 {
+    height: 96px;
+}
+
+input:focus,
+textarea:focus {
+    border: 1px solid rgb(51, 50, 61);
+}
+
+.btn-contato {
+
+    padding: 17px 38px;
+}
+
+.btn-contato:hover {
+    background-color: #5FB4A2;
+}

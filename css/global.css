@@ -1,0 +1,150 @@
+@import url('./layout.css');
+@import url('./spacing.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu {
+    list-style-type: none;
+}
+
+.menu li {
+    text-decoration: none;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.section-content {
+    height: 84px;
+}
+
+.h1-section-content {
+    width: 367px;
+}
+
+.btn-section {
+    height: 48px;
+    width: 168px;
+    border: 1px solid #33323D;
+}
+
+
+
+.slightlyDesaturatedCyan {
+    color: #5FB4A2;
+}
+
+.darkBlue {
+    color: #203A4C;
+}
+
+.darkBlueBG {
+    background-color: #203A4C;
+}
+
+.grayishDarkBlue {
+    color: #33323D;
+}
+
+.grayishDarkBlueBG {
+    background-color: #33323D;
+}
+
+.veryLightGrey {
+    color: #FAFAFA;
+}
+
+.veryLightGreyBG {
+    background-color: #FAFAFA;
+}
+
+.lightGrey {
+    color: #EAEAEB;
+}
+
+.blackBG {
+    background-color: #3a3939;
+}
+
+.public-sans-400-15 {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.public-sans-400-16 {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.public-sans-700-16 {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.public-sans-700-13 {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.public-sans-400-12 {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.1px;
+    letter-spacing: 2px;
+}
+
+.ibarra-real-700-50 {
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: -0.45px;
+}
+
+.ibarra-real-700-40 {
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: -0.36px;
+}
+
+.ibarra-real-400-32 {
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -0.29px;
+}
+
+.btn {
+    border: 1px solid #33323D;
+    padding: 17px 38px;
+}
+
+.btn:hover {
+    background-color: #33323D;
+    color: #fafafa;
+}
